@@ -1,0 +1,47 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .card img {
+    width: 100%;
+}
+
+/* COMMON */
+
+.conteiner {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    /* Reset */
+
+    border: 1px solid blue;
+}
+
+
+.card {
+    flex-wrap: wrap;
+    padding: 10px;
+    width: calc(96%/3);
+    position: relative;
+}
+
+/* IMMAGINI */
+
+
+
+
+/* TEXT */
+
+.scontato {
+color: red;
+}
+
+.originale {
+text-decoration: line-through;
+}
