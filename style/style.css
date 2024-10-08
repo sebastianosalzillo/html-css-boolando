@@ -32,10 +32,11 @@
 
 .card {
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 0.5%;
     width: calc(96%/3);
     position: relative;
-    margin: 5px;
+    margin-bottom: 1%;
+    
     
     /* Debug */
     border: 1px solid red;
@@ -65,4 +66,55 @@
 
 .originale {
     text-decoration: line-through;
+}
+.text {
+    padding: 1% 2%;
+}
+
+/* UTILITY */
+
+.heart {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #fff;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart:hover {
+    color: whitesmoke;
+    background-color: red;
+}
+
+.sostenibilita {
+position: absolute;
+bottom: 10px;
+left: 70px;
+background-color: green;
+color: yellow;
+padding: 1% 2%;
+
+/* DEBUG */
+border: solid 1px red;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    background-color: red;
+    padding: 1% 2%;
+    color: white;
+
+    /* DEBUG */
+
+    border: solid 1px red;
+}
+
+.card-header {
+    position: relative;
+    width: 100%;
 }
