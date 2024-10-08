@@ -89,9 +89,10 @@
     background-color: red;
 }
 
- .sostenibilita {
+
+.sostenibilita {
 position: absolute;
-bottom: 10px;
+bottom:8em;
 left: 70px; 
 background-color: green;
 color: yellow;
@@ -103,21 +104,17 @@ border: solid 1px red;
 
 .sconto {
     position: absolute;
-    bottom: 10px;
+    bottom: 8em;
     left: 15px; 
     background-color: red;
     padding: 1% 2%;
     color: white;
+    
 
     /* DEBUG */
 
     border: solid 1px red;
 } 
-
-.card-header {
-    position: relative;
-    width: 100%;
-}
 
 
 
